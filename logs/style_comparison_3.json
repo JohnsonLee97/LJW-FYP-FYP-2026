@@ -1,0 +1,64 @@
+{
+    "result": {
+        "run_id": "style_comparison_3",
+        "content_image": "content_images/content.jpg",
+        "style_image": "style_images\\style3.jpg",
+        "image_size": 256,
+        "style_weight": 0.01,
+        "content_weight": 10000.0,
+        "total_variation_weight": 30,
+        "iterations": 300,
+        "runtime_seconds": 138.13750433921814,
+        "ssim_content_score": 0.41325751042731546,
+        "final_content_loss": 6212488.5,
+        "final_style_loss": 4266307.0,
+        "final_tv_loss": 498620.75,
+        "final_total_loss": 10977417.0,
+        "output_path": "outputs/style_comparison_3.png",
+        "note": "Loss values are diagnostic only, not final image quality metrics."
+    },
+    "loss_history": [
+        {
+            "step": 0,
+            "content_loss": 0.0,
+            "style_loss": 382430688.0,
+            "tv_loss": 275452.03125,
+            "total_loss": 382706144.0
+        },
+        {
+            "step": 50,
+            "content_loss": 11520171.0,
+            "style_loss": 8215544.0,
+            "tv_loss": 566002.875,
+            "total_loss": 20301718.0
+        },
+        {
+            "step": 100,
+            "content_loss": 8413900.0,
+            "style_loss": 5837765.0,
+            "tv_loss": 547340.0625,
+            "total_loss": 14799005.0
+        },
+        {
+            "step": 150,
+            "content_loss": 7337892.0,
+            "style_loss": 5134761.5,
+            "tv_loss": 533687.5625,
+            "total_loss": 13006342.0
+        },
+        {
+            "step": 200,
+            "content_loss": 6740169.0,
+            "style_loss": 4725252.5,
+            "tv_loss": 520835.875,
+            "total_loss": 11986258.0
+        },
+        {
+            "step": 250,
+            "content_loss": 6370734.5,
+            "style_loss": 4452926.5,
+            "tv_loss": 508952.125,
+            "total_loss": 11332613.0
+        }
+    ]
+}
